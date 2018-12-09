@@ -50,6 +50,12 @@ All functionality is used inside of the `dashboard` class, which is intended to 
 </div>
 ```
 
+## Example
+
+You can see an example page in [`assets/example.html`](assets/example.html). Here's a screenshot:
+
+![Bulma Dashboard screenshot](assets/screenshot.png)
+
 ## Footer
 
 If you add a Bulma `footer` in the dashboard main section, it will "stick" to the bottom and fill up all remaining space.

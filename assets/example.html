@@ -5,13 +5,13 @@
       Bulma Dashboard example
     </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/lucperkins/bulma-dashboard/master/bulma-dashboard.min.css">
+    <link rel="stylesheet" href="../bulma-dashboard.min.css">
   </head>
   <body>
     <div class="dashboard">
       <!-- left panel -->
       <div class="dashboard-panel is-one-quarter has-thick-padding has-background-dark">
-        <p class="is-size-1">
+        <p class="is-size-2 has-text-white">
           Left panel
         </p>
       </div>
@@ -27,22 +27,30 @@
         </nav>
     
         <section class="section">
-          <p class="title">
+          <p class="title is-size-2">
             Main
           </p>
+
+          <section class="content">
+            Here is some basic text.
+          </section>
         </section>
     
         <!-- the footer will take up all unused space at the bottom -->
-        <footer class="footer has-background-black">
-          <p class="is-size-1">
+        <footer class="footer has-background-black has-text-white">
+          <p class="is-size-2">
             Footer
+          </p>
+
+          <p>
+            Notice that this entire space is filled up.
           </p>
         </footer>
       </div>
     
       <!-- right panel -->
-      <div class="dashboard-panel is-small has-background-light">
-        <p class="is-size-1">
+      <div class="dashboard-panel is-small has-thick-padding has-background-light">
+        <p class="is-size-2">
           Right panel
         </p>
       </div>
