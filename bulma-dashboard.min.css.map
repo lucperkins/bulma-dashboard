@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU,CACR,gBAAgB,CAAE,GAAG",
+"sources": ["bulma-dashboard.sass"],
+"names": [],
+"file": "bulma-dashboard.min.css"
+}
