@@ -1,3 +1,7 @@
 {
-  "name": "bulma-dashboard"
+  "name": "bulma-dashboard",
+  "version": "0.1.0",
+  "repository": "https://github.com/lucperkins/bulma-dashboard",
+  "author": "Luc Perkins <lucperkins@gmail.com>",
+  "license": "ISC"
 }
