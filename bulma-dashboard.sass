@@ -1,2 +1,32 @@
+$dashboard-default-panel-width: 20%
+
+.is-small
+  flex-basis: 10%
+
+.is-medium
+  flex-basis: 15%
+
+.is-large
+  flex-basis: 25%
+
+.is-scrollable
+  overflow: scroll
+
 .dashboard
-  background-color: red
+  display: flex
+  height: 100vh
+
+  .dashboard-left
+    flex-basis: $dashboard-default-panel-width
+
+  .dashboard-main
+    flex: 1
+  
+    .navbar
+      &.is-fixed-top
+        position: sticky
+        top: 0
+
+  .dashboard-right
+    flex-basis: $dashboard-default-panel-width
+

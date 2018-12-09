@@ -1,2 +1,2 @@
-.dashboard{background-color:red}
+.is-small{flex-basis:10%}.is-medium{flex-basis:15%}.is-large{flex-basis:25%}.is-scrollable{overflow:scroll}.dashboard{display:flex;height:100vh}.dashboard .dashboard-left{flex-basis:20%}.dashboard .dashboard-main{flex:1}.dashboard .dashboard-main .navbar.is-fixed-top{position:sticky;top:0}.dashboard .dashboard-right{flex-basis:20%}
 /*# sourceMappingURL=bulma-dashboard.min.css.map */
