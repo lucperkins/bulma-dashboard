@@ -54,7 +54,7 @@ All functionality is used inside of the `dashboard` class, which is intended to 
 
 You can see an example page in [`assets/example.html`](assets/example.html). Here's a screenshot:
 
-![Bulma Dashboard screenshot](assets/screenshot.png)
+![Bulma Dashboard screenshot](docs/screenshot.png)
 
 You can visit that page [here](https://lucperkins.github.io/bulma-dashboard/index.html).
 
