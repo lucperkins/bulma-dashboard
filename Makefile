@@ -3,5 +3,5 @@ build:
 	sass bulma-dashboard.sass:bulma-dashboard.min.css --style compressed
 	cp bulma-dashboard.min.css docs
 
-publish:
+publish: build
 	npm publish
