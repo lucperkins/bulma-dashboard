@@ -1,8 +1,19 @@
 $dashboard-default-panel-width: 25rem !default
-$dashboard-default-panel-padding: 1.5rem !default
+$dashboard-default-panel-padding: 2rem 1.5rem !default
+$dashboard-panel-height: 100% !default
+$dashboard-panel-header-bottom-margin: 2rem !default
+$dashboard-panel-footer-top-margin: 2rem !default
 
 =flex
   display: flex
+
+=row
+  +flex
+  flex-direction: row
+
+=column
+  +flex
+  flex-direction: column
 
 =fill
   flex: 1
@@ -10,20 +21,25 @@ $dashboard-default-panel-padding: 1.5rem !default
 =panel($width)
   flex: 0 0 $width
 
+=x-centered
+  +flex
+  justify-content: center
+
 .is-scrollable
   overflow: scroll
 
 .dashboard
-  +flex
-  flex-direction: row
+  +row
   height: 100vh
 
   &-panel
+    +column
     padding: $dashboard-default-panel-padding
     flex: 0 0 $dashboard-default-panel-width
+    height: $dashboard-panel-height
 
     &.has-thick-padding
-      padding: $dashboard-default-panel-padding * 2
+      padding: 3rem 2rem
 
     &.is-one-quarter
       +panel(25%)
@@ -37,6 +53,19 @@ $dashboard-default-panel-padding: 1.5rem !default
       +panel(20rem)
     &.is-large
       +panel(30rem)
+
+    &-header, &-content, &-footer
+      &.is-centered
+        +x-centered
+
+    &-header
+      margin-bottom: $dashboard-panel-header-bottom-margin
+
+    &-main
+      +fill
+
+    &-footer
+      margin-top: $dashboard-panel-footer-top-margin
 
   &-main
     +flex
