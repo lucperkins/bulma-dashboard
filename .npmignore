@@ -1,6 +1,4 @@
 .editorconfig
 Makefile
-LICENSE
-README.md
 docs/
 yarn.lock
