@@ -56,6 +56,8 @@ You can see an example page in [`assets/example.html`](assets/example.html). Her
 
 ![Bulma Dashboard screenshot](assets/screenshot.png)
 
+You can visit that page [here](https://lucperkins.github.io/bulma-dashboard/index.html).
+
 ## Footer
 
 If you add a Bulma `footer` in the dashboard main section, it will "stick" to the bottom and fill up all remaining space.
