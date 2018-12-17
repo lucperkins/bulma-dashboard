@@ -1,7 +1,7 @@
 build:
-	sass bulma-dashboard.sass:bulma-dashboard.css
-	sass bulma-dashboard.sass:bulma-dashboard.min.css --style compressed
-	cp bulma-dashboard.min.css docs
+	sass bulma-dashboard.sass:./dist/bulma-dashboard.css
+	sass bulma-dashboard.sass:./dist/bulma-dashboard.min.css --style compressed
+	cp dist/bulma-dashboard.min.css docs
 
 publish: build
 	npm publish
