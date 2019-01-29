@@ -11,6 +11,10 @@
     padding: 2rem 1.5rem;
     flex: 0 0 25rem;
     height: 100%; }
+    .dashboard-panel.left {
+      width: 25rem; }
+    .dashboard-panel.right {
+      width: 25rem; }
     .dashboard-panel.has-thick-padding {
       padding: 3rem 2rem; }
     .dashboard-panel.is-one-quarter {

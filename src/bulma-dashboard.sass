@@ -3,6 +3,8 @@ $dashboard-panel-padding: 2rem 1.5rem !default
 $dashboard-panel-height: 100% !default
 $dashboard-panel-header-bottom-margin: 2rem !default
 $dashboard-panel-footer-top-margin: 2rem !default
+$dashboard-panel-width-left: $dashboard-panel-width !default
+$dashboard-panel-width-right: $dashboard-panel-width !default
 
 =flex
   display: flex
@@ -37,6 +39,12 @@ $dashboard-panel-footer-top-margin: 2rem !default
     padding: $dashboard-panel-padding
     flex: 0 0 $dashboard-panel-width
     height: $dashboard-panel-height
+
+    &.left
+      width: $dashboard-panel-width-left
+
+    &.right
+      width: $dashboard-panel-width-right
 
     &.has-thick-padding
       padding: 3rem 2rem
