@@ -1,5 +1,5 @@
 .is-scrollable {
-  overflow: scroll; }
+  overflow-y: scroll; }
 
 .dashboard {
   display: flex;
