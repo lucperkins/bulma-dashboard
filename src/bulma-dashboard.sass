@@ -28,7 +28,7 @@ $dashboard-panel-width-right: $dashboard-panel-width !default
   justify-content: center
 
 .is-scrollable
-  overflow-y: scroll
+  overflow-y: auto
 
 .dashboard
   +row
@@ -78,7 +78,7 @@ $dashboard-panel-width-right: $dashboard-panel-width !default
   &-main
     +flex
     +fill
-    flex-direction: column
+    +column
     min-height: 100vh
   
     .navbar
