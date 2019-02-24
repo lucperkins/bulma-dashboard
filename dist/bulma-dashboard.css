@@ -45,6 +45,7 @@
     flex-direction: column;
     min-height: 100vh; }
     .dashboard-main .navbar.is-fixed-top {
+      position: -webkit-sticky;
       position: sticky;
       top: 0; }
     .dashboard-main .footer {
