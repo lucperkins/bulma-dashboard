@@ -17,7 +17,7 @@ You can also download or link to the Sass or CSS files directly.
 All functionality is used inside of the `dashboard` class, which is intended to take up the entire page. Here's an example:
 
 ```html
-<div class="dashboard">
+<div class="dashboard is-full-height">
   <!-- left panel -->
   <div class="dashboard-panel is-one-quarter">
   </div>
