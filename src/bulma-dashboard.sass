@@ -42,11 +42,11 @@ $dashboard-panel-width-right: $dashboard-panel-width !default
     flex: 0 0 $dashboard-panel-width
     height: $dashboard-panel-height
 
-    &.left
-      width: $dashboard-panel-width-left
+    &-left
+      =panel($dashboard-panel-width-left)
 
-    &.right
-      width: $dashboard-panel-width-right
+    &-right
+      =panel($dashboard-panel-width-right)
 
     &.has-thick-padding
       padding: 3rem 2rem
