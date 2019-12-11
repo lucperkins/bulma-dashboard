@@ -1,6 +1,11 @@
+INPUT      = ./src/bulma-dashboard.sass
+OUTPUT     = ./dist/bulma-dashboard.css
+OUTPUT_MIN = ./dist/bulma-dashboard.min.css
+
 build:
-	sassc ./src/bulma-dashboard.sass > ./dist/bulma-dashboard.css
-	sassc ./src/bulma-dashboard.sass > ./dist/bulma-dashboard.min.css --style compressed
+	sassc $(INPUT) > $(OUTPUT)
+	sassc --style compressed $(INPUT) > $(OUTPUT_MIN)
 
 publish: build
 	npm publish
+
