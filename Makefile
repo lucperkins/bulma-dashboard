@@ -6,6 +6,6 @@ build:
 	sass --source-map $(INPUT):$(OUTPUT)
 	sass --source-map --style compressed $(INPUT):$(OUTPUT_MIN)
 
-publish: build
+publish:
 	npm publish
 
