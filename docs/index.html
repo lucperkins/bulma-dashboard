@@ -4,53 +4,55 @@
     <title>
       Bulma Dashboard example
     </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <link rel="stylesheet" href="./bulma-dashboard.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="../dist/bulma-dashboard.min.css">
   </head>
   <body>
     <div class="dashboard is-full-height">
       <!-- left panel -->
       <div class="dashboard-panel is-medium has-thick-padding has-background-grey-lighter is-hidden-mobile">
-        <div class="has-text-centered">
-          <img src="https://bulma.io/images/bulma-logo.png  " width="50%">
+        <header class="dashboard-panel-header">
+          <div class="has-text-centered">
+            <img src="https://bulma.io/images/bulma-logo.png  " width="50%">
+          </div>
+        </header>
+
+        <div class="dashboard-panel-content">
+          <aside class="menu has-text-white">
+            <p class="menu-label">
+              General
+            </p>
+            <ul class="menu-list">
+              <li><a>Dashboard</a></li>
+              <li><a>Customers</a></li>
+            </ul>
+            <p class="menu-label">
+              Administration
+            </p>
+            <ul class="menu-list">
+              <li><a>Team Settings</a></li>
+              <li>
+                <a class="is-active">Manage Your Team</a>
+                <ul>
+                  <li><a>Members</a></li>
+                  <li><a>Plugins</a></li>
+                  <li><a>Add a member</a></li>
+                </ul>
+              </li>
+              <li><a>Invitations</a></li>
+              <li><a>Cloud Storage Environment Settings</a></li>
+              <li><a>Authentication</a></li>
+            </ul>
+            <p class="menu-label">
+              Transactions
+            </p>
+            <ul class="menu-list">
+              <li><a>Payments</a></li>
+              <li><a>Transfers</a></li>
+              <li><a>Balance</a></li>
+            </ul>
+          </aside>
         </div>
-
-        <br /><br />
-
-        <aside class="menu has-text-white">
-          <p class="menu-label">
-            General
-          </p>
-          <ul class="menu-list">
-            <li><a>Dashboard</a></li>
-            <li><a>Customers</a></li>
-          </ul>
-          <p class="menu-label">
-            Administration
-          </p>
-          <ul class="menu-list">
-            <li><a>Team Settings</a></li>
-            <li>
-              <a class="is-active">Manage Your Team</a>
-              <ul>
-                <li><a>Members</a></li>
-                <li><a>Plugins</a></li>
-                <li><a>Add a member</a></li>
-              </ul>
-            </li>
-            <li><a>Invitations</a></li>
-            <li><a>Cloud Storage Environment Settings</a></li>
-            <li><a>Authentication</a></li>
-          </ul>
-          <p class="menu-label">
-            Transactions
-          </p>
-          <ul class="menu-list">
-            <li><a>Payments</a></li>
-            <li><a>Transfers</a></li>
-            <li><a>Balance</a></li>
-          </ul>
-        </aside>
       </div>
     
       <!-- main section -->
@@ -118,19 +120,7 @@
         </p>
 
         <hr class="has-background-grey" />
-
-        <a class="is-size-4">
-          Introduction
-        </a>
-        <br />
-        <a class="is-size-4">
-          Overview
-        </a>
-        <br />
-        <a class="is-size-4">
-          Getting started
-        </a>
-        <br />
+        
         <a class="is-size-4">
           Introduction
         </a>
