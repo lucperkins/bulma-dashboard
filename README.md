@@ -52,7 +52,7 @@ All functionality is used inside of the `dashboard` class, which is intended to 
 
 ## Example
 
-You can see an example page in [`assets/example.html`](assets/example.html). Here's a screenshot:
+You can see an example page in [`docs/index.html`](docs/index.html). Here's a screenshot:
 
 ![Bulma Dashboard screenshot](docs/screenshot.png)
 
